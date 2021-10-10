@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+:root {
+    --cor0: rgb(254, 68, 0);/*Laranja Fcamara*/
+    --cor1: #FC4300;
+    --cor2: #FC6027;
+    --cor3: #EF653C;
+    --cor4: #090909;
+    --cor5: #303033;
+    --cor6: #333333;
+    --cor7: #333333d3;
+    --cor8: #36357e; /*Azul Fcamara*/
+    --cor9: #414099;
+    --cor10: #404099;
+    --cor11: #FFFFFF;
+}
+
+.logo{
+    width: 36vh;
+    height: 12vh;
+    margin-left: 20vh;
+}
+
+.info{
+    position: absolute;
+    left: 85%;
+    right: 16.67%;
+    top: 3%;
+    bottom: 16.67%;
+}
+
+.infox{
+    position: absolute;
+    left: 84.8%;
+    top: 6%;
+    color: var(--cor10);
+    font-family: 'Montsserat', sans-serif;
+    font-size: 2.5vh;
+}
+
+.close{
+    position: absolute;
+    left: 90%;
+    right: 16.67%;
+    top: 3%;
+    bottom: 16.67%;
+}
+
+.closed{
+    position: absolute;
+    left: 89.9%;
+    top: 6%;
+    color: var(--cor10);
+    font-family: 'Montsserat', sans-serif;
+    font-size: 2.5vh;
+}
+
+.container{
+    margin: auto;
+    width: 100vh;
+}
+
+.opcoes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#text{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor10);
+    font-size: 5vh;
+    margin-bottom: 4vh;
+    margin-top: 7vh;
+    text-align: center;   
+}
+
+.submit{
+    border-radius: 0.4rem;
+    border: 0.5vh solid var(--cor10);
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 50vh;
+    height: 10vh;
+    background-color: var(--cor11);
+}
+
+.submit:nth-child(1){
+    margin-right: 5vh;
+}
+
+.submit:hover{
+    color: var(--cor11);
+    background-color: var(--cor10);
+}
+
+.box{
+    margin: auto;
+    width: 100vh;
+    height: 50vh;
+    margin-top: 4vh;
+    border: 1px solid #A0A0A0;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.foto{
+    position: absolute;
+    left: 48%;
+    right: 16.67%;
+    top: 60%;
+    bottom: 12.5%;
+}
+
+.text2{
+    position: absolute;
+    width: 824px;
+    height: 21px;
+    left: 260px;
+    top: 450px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #404099;
+
+}
